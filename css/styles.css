@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* headings */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-head {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* selection */
+.colored-sec{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-sec{
+  background-color: #fff;
+}
+
+/* navigation bar */
+#title {
+
+  text-align: left;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download buttons */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.dogo {
+  right: 24%;
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.dog-img {
+  width: 10%;
+  border-radius: 100%;
+  border-style: ridge;
+  border-color: white;
+  margin: 20px;
+}
+
+/* fontawesome */
+.fonta {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.fonta:hover {
+  color: #ff4c68;
+}
+
+/* features-section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.fb {
+  padding: 5%;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.brands {
+  width: 15%;
+  margin: 20px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  border-style: ridge;
+  border-color: white;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px 100px 100px 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dogo {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* call to ation */
+#cta {
+  background-color: #ff4c68;
+  padding: 4% 20%;
+  color: #fff;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 2% 17%;
+}
+
+/* social-icon */
+.icon {
+  padding: 0.8rem;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+  margin-left: 0vw;
+  border-radius: 10px;
+}
+
+.icon-col {
+  color: black;
+}
+
+.icon:hover {
+  opacity: 0.5;
+  color: #ff4c68;
+}
